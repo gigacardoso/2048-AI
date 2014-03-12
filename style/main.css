@@ -547,7 +547,7 @@ black
         vertical-align: middle;
         margin-left: 10px; }
       .game-container .game-message.game-won {
-        background: rgba(237, 194, 46, 0.5);
+        background: rgba(242, 242, 242, 0.5);
         color: #444444; }
       .game-container .game-message.game-won, .game-container .game-message.game-over {
         display: block; }
