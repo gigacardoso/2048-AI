@@ -2,13 +2,13 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #444;
+  color: #B1B1B1;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
-  margin: 80px 0; }
+  margin: 20px 0; }
 
 .heading:after {
   content: "";
@@ -52,7 +52,7 @@ h1.title {
 .score-container {
   position: relative;
   float: right;
-  background: #bbada0;
+  background: #B1B1B1;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -92,7 +92,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #f9f6f2;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -139,7 +139,7 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #bbada0;
+  background: #B1B1B1;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -285,9 +285,27 @@ hr {
     left: 364px;
     top: 364px; }
 
+/*
+white
+#ffffff text black
+#e9e9e9
+#d4d4d4
+#bfbfbf
+#aaaaaa
+#949494
+#7f7f7f text white
+#6a6a6a
+#545454
+#3f3f3f
+#2a2a2a
+#151515
+#000000
+black
+*/
+
 .tile {
   border-radius: 3px;
-  background: #eee4da;
+  background: #ffffff;
   text-align: center;
   font-weight: bold;
   z-index: 10;
@@ -297,26 +315,26 @@ hr {
   -webkit-transition-property: top, left;
   -moz-transition-property: top, left; }
   .tile.tile-2 {
-    background: #eee4da;
+    background: #ffffff;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 {
-    background: #ede0c8;
+    background: #e9e9e9;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 {
-    color: #f9f6f2;
-    background: #f2b179; }
+    background: #d4d4d4;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-16 {
     color: #f9f6f2;
-    background: #f59563; }
+    background: #aaaaaa; }
   .tile.tile-32 {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background: #949494; }
   .tile.tile-64 {
     color: #f9f6f2;
-    background: #f65e3b; }
+    background: #7f7f7f; }
   .tile.tile-128 {
     color: #f9f6f2;
-    background: #edcf72;
+    background: #6a6a6a;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 480px) {
@@ -324,7 +342,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-256 {
     color: #f9f6f2;
-    background: #edcc61;
+    background: #545454;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 480px) {
@@ -332,7 +350,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-512 {
     color: #f9f6f2;
-    background: #edc850;
+    background: #3f3f3f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 480px) {
@@ -340,7 +358,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-1024 {
     color: #f9f6f2;
-    background: #edc53f;
+    background: #151515;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 480px) {
@@ -348,7 +366,7 @@ hr {
         font-size: 15px; } }
   .tile.tile-2048 {
     color: #f9f6f2;
-    background: #edc22e;
+    background: #000000;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 480px) {
