@@ -103,8 +103,8 @@ strong.important {
 hr {
   border: none;
   border-bottom: 1px solid #d8d4d0;
-  margin-top: 20px;
-  margin-bottom: 30px; }
+  margin-bottom: 20px; 
+  }
 
 .container {
   width: 500px;
@@ -462,7 +462,7 @@ black
   margin-bottom: 0; }
 
 .game-explanation {
-  margin-top: 50px; }
+  margin-top: 20px; }
 
 .sharing {
   margin-top: 20px;
@@ -500,7 +500,7 @@ black
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    background: #bbada0;
+    background: #B1B1B1;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -649,7 +649,7 @@ black
       top: 203px; }
 
   .game-container {
-    margin-top: 20px; }
+   /* margin-top: 20px; */ }
 
   .tile {
     font-size: 35px; }
