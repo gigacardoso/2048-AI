@@ -7,7 +7,7 @@ $grid-row-cells: 4;
 $tile-size: ($field-width - $grid-spacing * ($grid-row-cells + 1)) / $grid-row-cells;
 $tile-border-radius: 3px;
 
-$text-color: #776E65;
+$text-color: #2a2a2a;
 $bright-text-color: #f9f6f2;
 
 $tile-color: #eee4da;
@@ -483,6 +483,7 @@ hr {
       height: 30px !important;
       line-height: 30px !important;
       margin-top: 90px !important;
+      color: #444 !important; 
     }
 
     .lower {
